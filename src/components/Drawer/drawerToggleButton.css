@@ -1,0 +1,23 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: none;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.burger:focus {
+  outline: none;
+}
+
+.burger_line {
+  width: 30px;
+  height: 2px;
+  background: white;
+}
