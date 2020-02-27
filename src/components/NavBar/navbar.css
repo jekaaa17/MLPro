@@ -32,7 +32,7 @@
   padding: 0 1rem;
   align-items: center;
   justify-content: space-around;
-  width: 60%;
+  width: 40%;
 }
 
 .nav-links ul {
@@ -47,6 +47,7 @@
 }
 
 .nav-links a {
+  margin-right: 1rem;
   color: white;
   font-weight: bold;
   font-size: 14px;

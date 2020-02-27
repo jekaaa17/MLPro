@@ -38,6 +38,10 @@ class HeroesTierList extends Component {
               <td>
                 <img src={"./assets/Ling.png"} />
               </td>
+              <td>
+                <img src={"./assets/Pharsa.png"} />
+                <img src={"./assets/Harith.png"} />
+              </td>
             </tr>
             <tr>
               <td>S</td>
@@ -49,6 +53,14 @@ class HeroesTierList extends Component {
                 <img src={"./assets/Helcurt.png"} />
                 <img src={"./assets/Gusion.png"} />
                 <img src={"./assets/Selena.png"} />
+              </td>
+              <td>
+              <img src={"./assets/Lunox.png"} />
+              <img src={"./assets/Valir.png"} />
+              <img src={"./assets/Lylia.png"} />
+              <img src={"./assets/Cecilion.png"} />
+              <img src={"./assets/Zhask.png"} />
+              <img src={"./assets/Gord.png"} />
               </td>
             </tr>
             <tr>
@@ -64,7 +76,11 @@ class HeroesTierList extends Component {
                 <img src={"./assets/Fanny.png"} />
               </td>
               <td>
-                <img src={"./assets/Lylia.png"} />
+                <img src={"./assets/Chang'e.png"} />
+                <img src={"./assets/Kagura.png"} />
+                <img src={"./assets/Esmeralda.png"} />
+                <img src={"./assets/Harley.png"} />
+                <img src={"./assets/Kadita.png"} />
               </td>
             </tr>
             <tr>
@@ -74,10 +90,15 @@ class HeroesTierList extends Component {
                 <img src={"./assets/Irithel.png"} />
               </td>
               <td>
-                {" "}
                 <img src={"./assets/Natalia.png"} />
                 <img src={"./assets/Hanzo.png"} />
               </td>
+              <td>
+              <img src={"./assets/Aurora.png"} />
+              <img src={"./assets/Nana.png"} />
+              <img src={"./assets/Alice.png"} />
+              </td>
+
             </tr>
             <tr>
               <td>B</td>
@@ -89,6 +110,12 @@ class HeroesTierList extends Component {
               <td>
                 <img src={"./assets/Saber.png"} />
                 <img src={"./assets/Karina.png"} />
+              </td>
+              <td>
+              <img src={"./assets/Odette.png"} />
+              <img src={"./assets/Eudora.png"} />
+              <img src={"./assets/Cyclops.png"} />
+              <img src={"./assets/Vexana.png"} />
               </td>
             </tr>
             <tr>
