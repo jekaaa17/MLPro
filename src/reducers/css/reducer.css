@@ -1,0 +1,10 @@
+.tooltip-container {
+  height: 100%;
+  width: 350px;
+}
+
+.tooltip-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,8 +1,9 @@
 import * as React from "react";
 import DrawerToggleButton from "../Drawer/drawerToggleButton.jsx";
-import "./navbar.css";
+import { NavLink } from "react-router-dom";
+import "./navBar.css";
 
-const NavBar = props => {
+const NavBar = (props) => {
   return (
     <header className="header">
       <nav className="navbar">
@@ -14,18 +15,15 @@ const NavBar = props => {
         </div>
         <div className="space"></div>
         <ul className="nav-links">
-          <li>
-            <a href="$">Home</a>
-          </li>
-          <li>
-            <a href="$">About</a>
-          </li>
-          <li>
-            <a href="$">Heroes</a>
-          </li>
-          <li>
-            <a href="$">Items</a>
-          </li>
+          <NavLink exact to={("/home", "/")} activeClassName="current">
+            <li>Home</li>
+          </NavLink>
+          <NavLink to="/heroes" activeClassName="current">
+            <li>Heroes</li>
+          </NavLink>
+          <NavLink to="/guides" activeClassName="current">
+            <li>Guides</li>
+          </NavLink>
         </ul>
       </nav>
     </header>

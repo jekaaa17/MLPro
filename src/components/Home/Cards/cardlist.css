@@ -1,0 +1,28 @@
+.cardlist-layout {
+  background-color: #f6f9fc;
+}
+
+.cardlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 25px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 80%;
+  margin: auto;
+  column-gap: 12px;
+}
+
+@media (max-width: 1111px) {
+  .cardlist {
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    row-gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardlist {
+    grid-template-columns: 1fr;
+  }
+}

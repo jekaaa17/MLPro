@@ -1,10 +1,9 @@
 .header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: rgb(25, 25, 112);
-  height: 56px;
+  height: 100px;
 }
 
 .navbar {
@@ -12,6 +11,10 @@
   height: 100%;
   align-items: center;
   padding: 0 2rem;
+}
+
+.space {
+  width: 1500px;
 }
 
 .logo {
@@ -22,17 +25,18 @@
 }
 
 .logo h4 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .nav-links {
+  float: right;
   margin-left: 15rem;
   display: flex;
   height: 100%;
   padding: 0 1rem;
   align-items: center;
   justify-content: space-around;
-  width: 40%;
+  width: 90%;
 }
 
 .nav-links ul {
@@ -44,10 +48,10 @@
 .nav-links li {
   list-style: none;
   padding: 0 0.5rem;
+  margin-left: 50px;
 }
 
 .nav-links a {
-  margin-right: 1rem;
   color: white;
   font-weight: bold;
   font-size: 14px;
@@ -56,7 +60,8 @@
 
 .nav-links a:hover,
 .nav-links a:active {
-  color: #fa923f;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 @media (max-width: 768px) {
@@ -72,4 +77,9 @@
   .logo {
     margin-left: 0;
   }
+}
+
+a.current {
+  text-decoration: underline;
+  text-underline-position: under;
 }

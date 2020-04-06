@@ -32,7 +32,8 @@
 
 .drawer a:hover,
 .drawer a:active {
-  color: #fa923f;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 @media (min-width: 769px) {
