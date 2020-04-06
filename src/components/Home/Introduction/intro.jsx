@@ -11,7 +11,7 @@ class Intro extends Component {
           <div className="intro-card">
             <h1 className="intro-title">MLPro.</h1>
             <p className="explanation">
-              Ultimate guide for Mobile Legend: Bang bang players get in depth
+              Ultimate guide for Mobile Legends: Bang bang players get in depth
               information about current meta heroes, guides, build and more.
             </p>
           </div>
