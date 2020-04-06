@@ -11,7 +11,7 @@ const NavBar = (props) => {
           <DrawerToggleButton onClick={props.onClick} />
         </div>
         <div className="logo">
-          <h4>The Nav</h4>
+          <img src={"./assets/MLPro-logo.png"} />
         </div>
         <div className="space"></div>
         <ul className="nav-links">
