@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./card.css";
 import "../../../App.css";
 
-const Card = props => (
-  <a href={"#" + props.card.id}>
+const Card = (props) => (
+  <a href={"#" + props.card.ref}>
     <div className="container">
       <img src={"./assets/" + props.card.wallpaper + "Wallpaper.png"} />
       <div className="text">

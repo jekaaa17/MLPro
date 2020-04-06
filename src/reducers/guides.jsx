@@ -3,47 +3,43 @@ const list = [
     name: "How to Reach Mythic Faster for New Player",
     description: "",
     wallpaper: "rank-guide",
-    id: 1
+    id: 1,
   },
   {
     name: "Best Heroes for Solo Player",
     description: "",
     wallpaper: "best-heroes-guide",
-    id: 2
+    id: 2,
   },
   {
     name: "How to Max Emblems Faster",
     description: "",
     wallpaper: "emblem-guide",
-    id: 3
-  }
+    id: 3,
+  },
 ];
 
 const allList = [
   {
     name: "How to Reach Mythic Faster for New Player",
-    description: "",
     wallpaper: "rank-guide",
-    id: 1
+    id: 1,
   },
   {
     name: "Best Heroes for Solo Player",
-    description: "",
     wallpaper: "best-heroes-guide",
-    id: 2
+    id: 2,
   },
   {
     name: "How to Max Emblems Faster",
-    description: "",
     wallpaper: "emblem-guide",
-    id: 3
+    id: 3,
   },
   {
     name: "How to Buy Heroes in Mobile Legends Without Using Diamond",
-    description: "",
     wallpaper: "gold-usage-guide",
-    id: 4
-  }
+    id: 4,
+  },
 ];
 
 const guidesReducer = (state = [], action) => {

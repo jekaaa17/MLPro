@@ -4,7 +4,6 @@ import NavBar from "./components/NavBar/navbar.jsx";
 import Drawer from "./components/Drawer/drawer.jsx";
 import Backdrop from "./components/Backdrop/backdrop.jsx";
 import Home from "./components/Page/home.jsx";
-import HeroesTierList from "./components/Page/heroesTierList.jsx";
 import Heroes from "./components/Page/Heroes/heroesPage.jsx";
 import Guides from "./components/Page/Guides/guidesPage.jsx";
 import RankGuide from "./components/Page/Guides/GuidePage/rankGuide.jsx";

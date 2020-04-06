@@ -6,20 +6,17 @@ import "./slideView.css";
 
 const photos = [
   {
-    name: "Karrie",
     url: "./assets/firstSlider.png",
-    id: 1
+    id: 1,
   },
   {
-    name: "Aldous",
     url: "./assets/secondSlider.png",
-    id: 2
+    id: 2,
   },
   {
-    name: "Claude",
     url: "./assets/thirdSlider.png",
-    id: 3
-  }
+    id: 3,
+  },
 ];
 
 class SlideView extends Component {
@@ -33,12 +30,12 @@ class SlideView extends Component {
       arrows: true,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 3000
+      speed: 3000,
     };
     return (
       <div className="slider">
         <Slider {...settings}>
-          {photos.map(photo => {
+          {photos.map((photo) => {
             return (
               <div key={photo.id}>
                 <div className="slider-header">
