@@ -33,7 +33,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
+    publicPath: "/MLPro/",
     filename: "bundle.js",
   },
   plugins: [
