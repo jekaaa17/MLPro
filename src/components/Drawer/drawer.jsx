@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./drawer.css";
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class Drawer extends Component {
   render() {
@@ -12,18 +12,15 @@ class Drawer extends Component {
     return (
       <nav className={drawerClasses}>
         <ul>
-          <Link to="/home">
+          <NavLink to="/home" activeClassName="current">
             <li>Home</li>
-          </Link>
-          <Link to="/heroes-tier-list">
-            <li>TierList</li>
-          </Link>
-          <Link to="/heroes">
+          </NavLink>
+          <NavLink to="/heroes" activeClassName="current">
             <li>Heroes</li>
-          </Link>
-          <Link to="/guides">
+          </NavLink>
+          <NavLink to="/guides" activeClassName="current">
             <li>Guides</li>
-          </Link>
+          </NavLink>
         </ul>
       </nav>
     );

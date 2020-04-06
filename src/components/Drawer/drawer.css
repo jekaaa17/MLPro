@@ -36,6 +36,11 @@
   text-underline-position: under;
 }
 
+a.current {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
 @media (min-width: 769px) {
   .drawer {
     display: none;
