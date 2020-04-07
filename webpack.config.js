@@ -26,13 +26,17 @@ module.exports = {
               outputPath: "assets",
             },
           },
+        ],
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
           {
-            test: /\.(?:css|ttf)$/i,
-            use: [
-              "style-loader",
-              "css-loader?modules&importLoaders=1",
-              "ttf-module-loader",
-            ],
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "fonts/",
+            },
           },
         ],
       },
