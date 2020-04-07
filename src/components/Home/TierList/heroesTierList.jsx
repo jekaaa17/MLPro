@@ -25,6 +25,12 @@ class HeroesTierList extends Component {
           </div>
         </div>
         <h1 className="title">Heroes Tier List</h1>
+        <div className="info">
+          <p>
+            In this Heroes Tier List we provide Hero rankings to give you the
+            best heroes for the current meta.
+          </p>
+        </div>
         <table className="tier-list">
           <tbody>
             <tr>
@@ -399,14 +405,6 @@ class HeroesTierList extends Component {
             </tr>
           </tbody>
         </table>
-        <div className="note-container">
-          <div className="note">
-            <p>
-              Note: This heroes tier list is effective in ranked or classic
-              game.
-            </p>
-          </div>
-        </div>
         <div className="criteria-container">
           <div className="tier-list-card">
             <div className="box-header">

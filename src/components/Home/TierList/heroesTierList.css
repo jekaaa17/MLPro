@@ -22,6 +22,15 @@ a:hover span {
   text-align: center;
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  margin: 30px 10px 0;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
+
 .note {
   margin: 30px 10px 0;
   width: 800px;
