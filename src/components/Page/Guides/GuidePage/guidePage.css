@@ -14,18 +14,21 @@
 .guides-wrapper {
   margin: 15px 10px 0;
   color: black;
+  font-size: 15px;
   width: 800px;
   margin-bottom: 100px;
   line-height: 35px;
   padding-bottom: 15px;
 }
 
-.guides-wrapper p {
-  font-size: 15px;
-}
-
 .guides-wrapper img {
   max-width: 800px;
   width: 100%;
   height: auto;
+}
+
+@media (max-height: 400px) {
+  .guides-wrapper {
+    font-size: 12px;
+  }
 }

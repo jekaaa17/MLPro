@@ -31,6 +31,11 @@ a:hover span {
   text-align: center;
 }
 
+.info p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .note {
   margin: 30px 10px 0;
   width: 800px;
