@@ -26,6 +26,14 @@ module.exports = {
               outputPath: "assets",
             },
           },
+          {
+            test: /\.(?:css|ttf)$/i,
+            use: [
+              "style-loader",
+              "css-loader?modules&importLoaders=1",
+              "ttf-module-loader",
+            ],
+          },
         ],
       },
     ],
