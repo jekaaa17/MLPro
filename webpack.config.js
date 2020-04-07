@@ -6,7 +6,7 @@ module.exports = {
     contentBase: "./build",
     historyApiFallback: true,
   },
-  entry: path.resolve(__dirname, "./src/index.jsx", "./"),
+  entry: "./src/index.jsx",
   module: {
     rules: [
       {
@@ -38,8 +38,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/template.html",
-      filename: "index.html",
+      template: "./index.html",
     }),
   ],
 };
