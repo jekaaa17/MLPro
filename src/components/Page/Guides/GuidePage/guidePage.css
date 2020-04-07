@@ -14,7 +14,7 @@
 .guides-wrapper {
   margin: 15px 10px 0;
   color: black;
-  font-size: 15px;
+  font-size: 14px;
   width: 800px;
   margin-bottom: 100px;
   line-height: 35px;
@@ -28,5 +28,5 @@
 }
 
 html {
-  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  -webkit-text-size-adjust: 100%;
 }
