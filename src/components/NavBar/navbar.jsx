@@ -1,7 +1,7 @@
 import * as React from "react";
 import DrawerToggleButton from "../Drawer/drawerToggleButton.jsx";
 import { NavLink } from "react-router-dom";
-import "./navBar.css";
+import "./navbar.css";
 
 const NavBar = (props) => {
   return (

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AllGuides from "../../home/Guides/allGuides.jsx";
+import AllGuides from "../../Home/Guides/allGuides.jsx";
 import { useSelector, useDispatch } from "react-redux";
 import { getAllGuides } from "../../../actions/index.jsx";
 
