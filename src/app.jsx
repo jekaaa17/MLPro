@@ -12,8 +12,8 @@ import GoldUsageGuide from "./components/Page/Guides/GuidePage/buyHeroesGuide.js
 import BestHeroesGuide from "./components/Page/Guides/GuidePage/bestHeroesGuide.jsx";
 import { useSelector, useDispatch } from "react-redux";
 import { drawerToggleClick, backDropClick } from "./actions/index.jsx";
-import "./App.css";
 import ScrollToTop from "./components/Home/scrollToTop.jsx";
+import "./App.css";
 
 function App() {
   const drawer = useSelector((state) => state.drawer);
