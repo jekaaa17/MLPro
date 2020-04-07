@@ -27,8 +27,6 @@
   height: auto;
 }
 
-@media (max-height: 400px) {
-  .guides-wrapper {
-    font-size: 12px;
-  }
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
