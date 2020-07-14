@@ -1,5 +1,5 @@
 # MLPro
-responsive website for sharing my knowledge and information about Mobile Legends game  
+React application for sharing my knowledge and information about Mobile Legends game  
 
 ## Built With
 
